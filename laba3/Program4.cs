@@ -29,7 +29,7 @@ class Program
             people.Add(person);
         }
 
-        // Виводимо людей, вік яких старше 30 років, в алфавітному порядку
+        // Збирає інформацію
         var result = people
             .Where(person => person.Age > 30)
             .OrderBy(person => person.Name)
